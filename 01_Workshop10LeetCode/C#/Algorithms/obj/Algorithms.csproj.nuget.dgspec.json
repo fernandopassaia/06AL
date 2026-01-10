@@ -1,26 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "/home/fernandopassaia/Repositories/studies2026/06AL/01_Workshop10LeetCode/C#/Algorithms/Algorithms.csproj": {}
+    "/Users/fernandopassaia/Dev/studies2026/06AL/01_Workshop10LeetCode/C#/Algorithms/Algorithms.csproj": {}
   },
   "projects": {
-    "/home/fernandopassaia/Repositories/studies2026/06AL/01_Workshop10LeetCode/C#/Algorithms/Algorithms.csproj": {
+    "/Users/fernandopassaia/Dev/studies2026/06AL/01_Workshop10LeetCode/C#/Algorithms/Algorithms.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/fernandopassaia/Repositories/studies2026/06AL/01_Workshop10LeetCode/C#/Algorithms/Algorithms.csproj",
+        "projectUniqueName": "/Users/fernandopassaia/Dev/studies2026/06AL/01_Workshop10LeetCode/C#/Algorithms/Algorithms.csproj",
         "projectName": "Algorithms",
-        "projectPath": "/home/fernandopassaia/Repositories/studies2026/06AL/01_Workshop10LeetCode/C#/Algorithms/Algorithms.csproj",
-        "packagesPath": "/home/fernandopassaia/.nuget/packages/",
-        "outputPath": "/home/fernandopassaia/Repositories/studies2026/06AL/01_Workshop10LeetCode/C#/Algorithms/obj/",
+        "projectPath": "/Users/fernandopassaia/Dev/studies2026/06AL/01_Workshop10LeetCode/C#/Algorithms/Algorithms.csproj",
+        "packagesPath": "/Users/fernandopassaia/.nuget/packages/",
+        "outputPath": "/Users/fernandopassaia/Dev/studies2026/06AL/01_Workshop10LeetCode/C#/Algorithms/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/fernandopassaia/.nuget/NuGet/NuGet.Config"
+          "/Users/fernandopassaia/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net10.0"
         ],
         "sources": {
-          "/usr/lib64/dotnet/library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -60,7 +59,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/lib64/dotnet/sdk/10.0.101/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/10.0.100/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",
