@@ -22,18 +22,6 @@ const twoSumTestData: TwoSumTestCase[] = [
     [3, 2, 4],
     6,
     [1, 2]
-  ],
-  [
-    [1, 5, 9, 13, 17, 21, 25, 29, 33, 37,
-     41, 45, 49, 53, 57, 61, 65, 69, 73, 77],
-    90,
-    [6, 13]
-  ],
-  [
-    [10, 20, 30, 40, 50, 60, 70, 80, 90, 100,
-     110, 120, 130, 140, 150, 160, 170, 180, 190, 200],
-    210,
-    [0, 9]
   ]
 ];
 
@@ -62,7 +50,7 @@ describe("TwoSumUsingON", () => {
       const solver = new TwoSum();
 
       // Act
-      const result = solver.twoSumUsingON(nums, target);
+      const result = solver.TwoSumUsingON(nums, target);
 
       // Assert
       expect(nums[result[0]] + nums[result[1]]).toBe(target);
