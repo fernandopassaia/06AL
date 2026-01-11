@@ -1,6 +1,6 @@
 ﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
 	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=b490ef0b_002D98c1_002D49fe_002Da9fe_002Dfd3960fe3009/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="Should_Return_Indexes_When_TwoSumUsingON2AndBrutalForce" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
   &lt;TestAncestor&gt;
-    &lt;TestId&gt;xUnit::5F1610FB-769F-C7F6-BCB9-73D9668180DE::net10.0::Algorithms.Tests.TwoSumTest.Should_Return_Indexes_When_TwoSumUsingON2AndBrutalForce&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::5F1610FB-769F-C7F6-BCB9-73D9668180DE::net10.0::Algorithms.Tests.TwoSumTest&lt;/TestId&gt;
   &lt;/TestAncestor&gt;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

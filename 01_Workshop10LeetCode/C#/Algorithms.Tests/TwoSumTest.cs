@@ -8,6 +8,12 @@ public class TwoSumTest
             new object[]
             {
                 new int[] { 2, 7, 11, 15 },
+                18,
+                new int[] { 1, 2 }
+            },
+            new object[]
+            {
+                new int[] { 2, 7, 11, 15 },
                 9,
                 new int[] { 0, 1 }
             },
@@ -45,6 +51,23 @@ public class TwoSumTest
 
         // Act
         int[] result = solver.TwoSumUsingON2AndBrutalForce(nums, target);
+
+        // Assert
+        Assert.Equal(target, nums[result[0]] + nums[result[1]]);
+    }
+    
+    [Theory]
+    [MemberData(nameof(TwoSumTestData))]
+    public void Should_Return_Indexes_When_TwoSumUsingON(
+        int[] nums,
+        int target,
+        int[] expected)
+    {
+        // Arrange
+        var solver = new TwoSum();
+
+        // Act
+        int[] result = solver.TwoSumUsingON(nums, target);
 
         // Assert
         Assert.Equal(target, nums[result[0]] + nums[result[1]]);

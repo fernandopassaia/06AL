@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "X8B/niHY85Y=",
+  "dgSpecHash": "flXfb8OhXYY=",
   "success": true,
-  "projectFilePath": "/Users/fernandopassaia/Dev/studies2026/06AL/01_Workshop10LeetCode/C#/Algorithms.Tests/Algorithms.Tests.csproj",
+  "projectFilePath": "/Users/fernandopassaia/Repositories/studies2026/06AL/01_Workshop10LeetCode/C#/Algorithms.Tests/Algorithms.Tests.csproj",
   "expectedPackageFiles": [
     "/Users/fernandopassaia/.nuget/packages/coverlet.collector/6.0.4/coverlet.collector.6.0.4.nupkg.sha512",
     "/Users/fernandopassaia/.nuget/packages/microsoft.codecoverage/17.14.1/microsoft.codecoverage.17.14.1.nupkg.sha512",

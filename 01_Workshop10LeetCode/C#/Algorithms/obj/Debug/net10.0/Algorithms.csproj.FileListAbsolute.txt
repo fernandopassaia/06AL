@@ -10,3 +10,15 @@
 /Users/fernandopassaia/Dev/studies2026/06AL/01_Workshop10LeetCode/C#/Algorithms/obj/Debug/net10.0/refint/Algorithms.dll
 /Users/fernandopassaia/Dev/studies2026/06AL/01_Workshop10LeetCode/C#/Algorithms/obj/Debug/net10.0/Algorithms.pdb
 /Users/fernandopassaia/Dev/studies2026/06AL/01_Workshop10LeetCode/C#/Algorithms/obj/Debug/net10.0/ref/Algorithms.dll
+/Users/fernandopassaia/Repositories/studies2026/06AL/01_Workshop10LeetCode/C#/Algorithms/bin/Debug/net10.0/Algorithms.deps.json
+/Users/fernandopassaia/Repositories/studies2026/06AL/01_Workshop10LeetCode/C#/Algorithms/bin/Debug/net10.0/Algorithms.dll
+/Users/fernandopassaia/Repositories/studies2026/06AL/01_Workshop10LeetCode/C#/Algorithms/bin/Debug/net10.0/Algorithms.pdb
+/Users/fernandopassaia/Repositories/studies2026/06AL/01_Workshop10LeetCode/C#/Algorithms/obj/Debug/net10.0/Algorithms.GeneratedMSBuildEditorConfig.editorconfig
+/Users/fernandopassaia/Repositories/studies2026/06AL/01_Workshop10LeetCode/C#/Algorithms/obj/Debug/net10.0/Algorithms.AssemblyInfoInputs.cache
+/Users/fernandopassaia/Repositories/studies2026/06AL/01_Workshop10LeetCode/C#/Algorithms/obj/Debug/net10.0/Algorithms.AssemblyInfo.cs
+/Users/fernandopassaia/Repositories/studies2026/06AL/01_Workshop10LeetCode/C#/Algorithms/obj/Debug/net10.0/Algorithms.csproj.CoreCompileInputs.cache
+/Users/fernandopassaia/Repositories/studies2026/06AL/01_Workshop10LeetCode/C#/Algorithms/obj/Debug/net10.0/Algorithms.sourcelink.json
+/Users/fernandopassaia/Repositories/studies2026/06AL/01_Workshop10LeetCode/C#/Algorithms/obj/Debug/net10.0/Algorithms.dll
+/Users/fernandopassaia/Repositories/studies2026/06AL/01_Workshop10LeetCode/C#/Algorithms/obj/Debug/net10.0/refint/Algorithms.dll
+/Users/fernandopassaia/Repositories/studies2026/06AL/01_Workshop10LeetCode/C#/Algorithms/obj/Debug/net10.0/Algorithms.pdb
+/Users/fernandopassaia/Repositories/studies2026/06AL/01_Workshop10LeetCode/C#/Algorithms/obj/Debug/net10.0/ref/Algorithms.dll

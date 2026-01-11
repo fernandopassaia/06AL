@@ -935,11 +935,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/fernandopassaia/Dev/studies2026/06AL/01_Workshop10LeetCode/C#/Algorithms.Tests/Algorithms.Tests.csproj",
+      "projectUniqueName": "/Users/fernandopassaia/Repositories/studies2026/06AL/01_Workshop10LeetCode/C#/Algorithms.Tests/Algorithms.Tests.csproj",
       "projectName": "Algorithms.Tests",
-      "projectPath": "/Users/fernandopassaia/Dev/studies2026/06AL/01_Workshop10LeetCode/C#/Algorithms.Tests/Algorithms.Tests.csproj",
+      "projectPath": "/Users/fernandopassaia/Repositories/studies2026/06AL/01_Workshop10LeetCode/C#/Algorithms.Tests/Algorithms.Tests.csproj",
       "packagesPath": "/Users/fernandopassaia/.nuget/packages/",
-      "outputPath": "/Users/fernandopassaia/Dev/studies2026/06AL/01_Workshop10LeetCode/C#/Algorithms.Tests/obj/",
+      "outputPath": "/Users/fernandopassaia/Repositories/studies2026/06AL/01_Workshop10LeetCode/C#/Algorithms.Tests/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/fernandopassaia/.nuget/NuGet/NuGet.Config"
@@ -954,8 +954,8 @@
         "net10.0": {
           "targetAlias": "net10.0",
           "projectReferences": {
-            "/Users/fernandopassaia/Dev/studies2026/06AL/01_Workshop10LeetCode/C#/Algorithms/Algorithms.csproj": {
-              "projectPath": "/Users/fernandopassaia/Dev/studies2026/06AL/01_Workshop10LeetCode/C#/Algorithms/Algorithms.csproj"
+            "/Users/fernandopassaia/Repositories/studies2026/06AL/01_Workshop10LeetCode/C#/Algorithms/Algorithms.csproj": {
+              "projectPath": "/Users/fernandopassaia/Repositories/studies2026/06AL/01_Workshop10LeetCode/C#/Algorithms/Algorithms.csproj"
             }
           }
         }
