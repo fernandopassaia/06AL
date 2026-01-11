@@ -5,7 +5,7 @@ namespace Algorithms;
 public class TwoSum
 {
     // Wrong Way using O(n^2)
-    public int[] TwoSumUsingON2AndBrutalForce(int[] inputs, int target)
+    public int[] TwoSumBrutalForce(int[] inputs, int target)
     {
         for (int i = 0; i < inputs.Length; i++)
         {
@@ -21,7 +21,7 @@ public class TwoSum
     }
 
     // Good Way using Hashmap / Map / Dictionary
-    public int[] TwoSumUsingON(int[] inputs, int target)
+    public int[] TwoSumDictionary(int[] inputs, int target)
     {
         // Usarei o Dicionario para Armazenar a Key (Posicao 2) e o Quanto Falta (Número que espero no futuro).
         // Key   = número que eu espero encontrar no futuro (quanto falta)

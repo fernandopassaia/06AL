@@ -38,10 +38,10 @@ public class TwoSumTest
                 new int[] { 0, 9 } // 10 + 200
             }
         };
-    
+
     [Theory]
     [MemberData(nameof(TwoSumTestData))]
-    public void Should_Return_Indexes_When_TwoSumUsingON2AndBrutalForce(
+    public void Should_Return_Indexes_When_TwoSumBrutalForce(
         int[] nums,
         int target,
         int[] expected)
@@ -50,15 +50,15 @@ public class TwoSumTest
         var solver = new TwoSum();
 
         // Act
-        int[] result = solver.TwoSumUsingON2AndBrutalForce(nums, target);
+        int[] result = solver.TwoSumBrutalForce(nums, target);
 
         // Assert
         Assert.Equal(target, nums[result[0]] + nums[result[1]]);
     }
-    
+
     [Theory]
     [MemberData(nameof(TwoSumTestData))]
-    public void Should_Return_Indexes_When_TwoSumUsingON(
+    public void Should_Return_Indexes_When_TwoSumDictionary(
         int[] nums,
         int target,
         int[] expected)
@@ -67,7 +67,24 @@ public class TwoSumTest
         var solver = new TwoSum();
 
         // Act
-        int[] result = solver.TwoSumUsingON(nums, target);
+        int[] result = solver.TwoSumDictionary(nums, target);
+
+        // Assert
+        Assert.Equal(target, nums[result[0]] + nums[result[1]]);
+    }
+
+    [Theory]
+    [MemberData(nameof(TwoSumTestData))]
+    public void Should_Return_Indexes_When_TwoSumDictionaryAgain(
+        int[] nums,
+        int target,
+        int[] expected)
+    {
+        // Arrange
+        var solver = new TwoSumAgain();
+
+        // Act
+        int[] result = solver.TwoSumDictionaryAgain(nums, target);
 
         // Assert
         Assert.Equal(target, nums[result[0]] + nums[result[1]]);

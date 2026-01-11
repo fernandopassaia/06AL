@@ -1,6 +1,6 @@
 export class TwoSum {
 
-    public twoSumUsingON2AndBrutalForce(nums: number[], target: number): number[] {
+    public TwoSumBrutalForce(nums: number[], target: number): number[] {
         for(let i=0; i < nums.length; i++){
             for (let i2 = i + 1; i2 < nums.length; i2++){
                 if((nums[i] + nums[i2]) == target){
@@ -11,7 +11,7 @@ export class TwoSum {
         throw new Error("No solution found");
     }
 
-    public TwoSumUsingON(nums: number[], target: number): number[] {
+    public TwoSumDictionary(nums: number[], target: number): number[] {
         const map = new Map<number, number>();
 
         for(let i=0; i < nums.length; i++){

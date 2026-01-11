@@ -1,4 +1,5 @@
-import { TwoSum } from "../src/TwoSum";
+import { TwoSum } from "../src/TwoSun/TwoSum";
+import { TwoSunAgain } from "../src/TwoSun/TwoSunAgain";
 
 type TwoSumTestCase = [
   number[], // nums
@@ -26,7 +27,7 @@ const twoSumTestData: TwoSumTestCase[] = [
 ];
 
 
-describe("TwoSumUsingON2AndBrutalForce", () => {
+describe("TwoSumBrutalForce", () => {
   test.each(twoSumTestData)(
     "should return valid indexes for target %i",
     (nums, target) => {
@@ -34,7 +35,7 @@ describe("TwoSumUsingON2AndBrutalForce", () => {
       const solver = new TwoSum();
 
       // Act
-      const result = solver.twoSumUsingON2AndBrutalForce(nums, target);
+      const result = solver.TwoSumBrutalForce(nums, target);
 
       // Assert
       expect(nums[result[0]] + nums[result[1]]).toBe(target);
@@ -42,7 +43,7 @@ describe("TwoSumUsingON2AndBrutalForce", () => {
   );
 });
 
-describe("TwoSumUsingON", () => {
+describe("TwoSumDictionary", () => {
   test.each(twoSumTestData)(
     "should return valid indexes for target %i",
     (nums, target) => {
@@ -50,7 +51,23 @@ describe("TwoSumUsingON", () => {
       const solver = new TwoSum();
 
       // Act
-      const result = solver.TwoSumUsingON(nums, target);
+      const result = solver.TwoSumDictionary(nums, target);
+
+      // Assert
+      expect(nums[result[0]] + nums[result[1]]).toBe(target);
+    }
+  );
+  });
+
+  describe("TwoSumDictionaryAgain", () => {
+  test.each(twoSumTestData)(
+    "should return valid indexes for target %i",
+    (nums, target) => {
+      // Arrange
+      const solver = new TwoSunAgain();
+
+      // Act
+      const result = solver.TwoSumDictionaryAgain(nums, target);
 
       // Assert
       expect(nums[result[0]] + nums[result[1]]).toBe(target);
